@@ -1,0 +1,19 @@
+{
+    "subject": "A",
+    "issuer": "Root CA",
+    "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApgACQKsNZ62Qx4vBjoI5\njwCr1IOO1IcovllRLIQ2bxMUNdfzH4x2/SR6/nE8YYVZsvKlgFdAUBpLWiStZ6zj\nk+v1LxsNVjGjdqOvXK3zJDZ6DH4ZKqwgH5hTmNA7fCsO9YS3QkQKaeENbbJ+kQgs\nSRc4qzWOu3LH0fPPH28Q1LF/dcRSnDUaVjhkdm7AwfWAmbmIOt7xTqe6vI+wTwmk\n+UdeuYRdnVRD0V8mU29nisAUZVVwKtwEQIOhp7BHNDz/Gq9ZreQtrChOEvl/wOYw\nMJaNefqrSy9UfTNuaqYTrdvAKYnP3cvFADDDt6lkmLtJ9HjtiGg8GhL1CLfy269/\n2QIDAQAB\n-----END PUBLIC KEY-----",
+    "serial_number": 750284,
+    "not_before": "2025-04-03T14:19:53.881031",
+    "not_after": "2026-04-03T14:19:53.881047",
+    "extensions": {
+        "key_usage": [
+            "digital_signature",
+            "key_encipherment"
+        ],
+        "basic_constraints": {
+            "ca": false
+        }
+    },
+    "signature": "3dc95041286648228e22216861c148fc27740cc95770da51c6e8c334df431f5616cdee0c22534231832f7625a3330e04516a468f53df263a1a3c7e028025ef700f834cfc8cc8ce1e480740629ed8d537789f968791c5e38b8122547dee24dbd689bb01c5fe3cd3fcd01f9cc23033876ea13a3bc65a5d542550adf574268220452ec9a190e95226c2b898fae03fa0e86e1289e9a2faf647927a0770922c8045f903e8c7113569481ab997f99beae9f65cb5a465a01eeb90ee071da3351518e56c04101a90c525353afefcc12c5c78fd5def9b9f7bb6e52ce62aea595efe9403b1b07fdfe655e608d349fd7682caf3e58ccbf14a2decc066a01e8b85aced3d6139",
+    "signature_algorithm": "sha256WithRSAEncryption"
+}

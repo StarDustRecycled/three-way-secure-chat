@@ -1,0 +1,210 @@
+2025-04-03 14:53:18,048 - websockets.server - INFO - server listening on [::1]:8765
+2025-04-03 14:53:18,049 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-04-03 14:53:18,049 - Server - INFO - Server started on port 8765
+2025-04-03 14:53:20,674 - websockets.server - INFO - connection open
+2025-04-03 14:53:20,675 - Server - INFO - Authentication request from A
+2025-04-03 14:53:20,677 - Server - INFO - Client A authenticated successfully
+2025-04-03 14:53:22,673 - websockets.server - INFO - connection open
+2025-04-03 14:53:22,674 - Server - INFO - Authentication request from B
+2025-04-03 14:53:22,675 - Server - INFO - Client B authenticated successfully
+2025-04-03 14:53:24,666 - websockets.server - INFO - connection open
+2025-04-03 14:53:24,671 - Server - INFO - Authentication request from C
+2025-04-03 14:53:24,672 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 14:53:24,673 - Server - INFO - Sent ready notification to client A
+2025-04-03 14:53:24,673 - Server - INFO - Sent ready notification to client B
+2025-04-03 14:53:24,673 - Server - INFO - Sent ready notification to client C
+2025-04-03 14:53:24,673 - Server - INFO - Client C authenticated successfully
+2025-04-03 14:53:24,808 - Server - INFO - Relayed message from A to B
+2025-04-03 14:53:24,853 - Server - INFO - Relayed message from A to C
+2025-04-03 14:53:24,997 - Server - INFO - Relayed message from B to A
+2025-04-03 14:53:25,044 - Server - INFO - Relayed message from B to C
+2025-04-03 14:53:25,229 - Server - INFO - Relayed message from C to A
+2025-04-03 14:53:25,281 - Server - INFO - Relayed message from C to B
+2025-04-03 14:53:25,412 - Server - INFO - Relayed message from A to B
+2025-04-03 14:53:25,464 - Server - INFO - Relayed message from A to C
+2025-04-03 14:53:25,564 - Server - INFO - Relayed message from B to C
+2025-04-03 15:11:14,283 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-04-03 15:11:14,283 - websockets.server - INFO - server listening on [::1]:8765
+2025-04-03 15:11:14,283 - Server - INFO - Server started on port 8765
+2025-04-03 15:11:16,623 - websockets.server - INFO - connection open
+2025-04-03 15:11:16,624 - Server - INFO - Authentication request from A
+2025-04-03 15:11:16,626 - Server - INFO - Client A authenticated successfully
+2025-04-03 15:11:18,608 - websockets.server - INFO - connection open
+2025-04-03 15:11:18,609 - Server - INFO - Authentication request from B
+2025-04-03 15:11:18,610 - Server - INFO - Client B authenticated successfully
+2025-04-03 15:11:20,652 - websockets.server - INFO - connection open
+2025-04-03 15:11:20,653 - Server - INFO - Authentication request from C
+2025-04-03 15:11:20,655 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 15:11:20,655 - Server - INFO - Sent ready notification to client A
+2025-04-03 15:11:20,655 - Server - INFO - Sent ready notification to client B
+2025-04-03 15:11:20,656 - Server - INFO - Sent ready notification to client C
+2025-04-03 15:11:20,656 - Server - INFO - Client C authenticated successfully
+2025-04-03 15:11:20,799 - Server - INFO - Relayed message from A to B
+2025-04-03 15:11:20,850 - Server - INFO - Relayed message from A to C
+2025-04-03 15:11:20,994 - Server - INFO - Relayed message from B to A
+2025-04-03 15:11:21,039 - Server - INFO - Relayed message from B to C
+2025-04-03 15:11:21,215 - Server - INFO - Relayed message from C to A
+2025-04-03 15:11:21,268 - Server - INFO - Relayed message from C to B
+2025-04-03 15:11:21,408 - Server - INFO - Relayed message from A to B
+2025-04-03 15:11:21,459 - Server - INFO - Relayed message from A to C
+2025-04-03 15:11:21,559 - Server - INFO - Relayed message from B to C
+2025-04-03 15:21:33,889 - Server - INFO - Connection closed for client C
+2025-04-03 15:21:33,890 - Server - INFO - Client C disconnected
+2025-04-03 15:21:33,891 - websockets.server - INFO - connection closed
+2025-04-03 15:21:36,053 - Server - INFO - Connection closed for client B
+2025-04-03 15:21:36,053 - Server - INFO - Client B disconnected
+2025-04-03 15:21:36,055 - websockets.server - INFO - connection closed
+2025-04-03 15:22:17,168 - websockets.server - INFO - server listening on [::1]:8765
+2025-04-03 15:22:17,168 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-04-03 15:22:17,168 - Server - INFO - Server started on port 8765
+2025-04-03 15:22:19,661 - websockets.server - INFO - connection open
+2025-04-03 15:22:19,662 - Server - INFO - Authentication request from A
+2025-04-03 15:22:19,664 - Server - INFO - Client A authenticated successfully
+2025-04-03 15:22:21,644 - websockets.server - INFO - connection open
+2025-04-03 15:22:21,646 - Server - INFO - Authentication request from B
+2025-04-03 15:22:21,647 - Server - INFO - Client B authenticated successfully
+2025-04-03 15:22:23,669 - websockets.server - INFO - connection open
+2025-04-03 15:22:23,670 - Server - INFO - Authentication request from C
+2025-04-03 15:22:23,671 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 15:22:23,671 - Server - INFO - Sent ready notification to client A
+2025-04-03 15:22:23,672 - Server - INFO - Sent ready notification to client B
+2025-04-03 15:22:23,672 - Server - INFO - Sent ready notification to client C
+2025-04-03 15:22:23,672 - Server - INFO - Client C authenticated successfully
+2025-04-03 15:22:23,848 - Server - INFO - Relayed message from A to B
+2025-04-03 15:22:23,894 - Server - INFO - Relayed message from A to C
+2025-04-03 15:22:24,063 - Server - INFO - Relayed message from B to A
+2025-04-03 15:22:24,112 - Server - INFO - Relayed message from B to C
+2025-04-03 15:22:24,292 - Server - INFO - Relayed message from C to A
+2025-04-03 15:22:24,337 - Server - INFO - Relayed message from C to B
+2025-04-03 15:22:24,478 - Server - INFO - Relayed message from A to B
+2025-04-03 15:22:24,540 - Server - INFO - Relayed message from A to C
+2025-04-03 15:22:24,640 - Server - INFO - Relayed message from B to C
+2025-04-03 18:19:21,656 - Server - INFO - Connection closed for client A
+2025-04-03 18:19:21,657 - Server - INFO - Client A disconnected
+2025-04-03 18:19:21,658 - websockets.server - INFO - connection closed
+2025-04-03 18:19:23,035 - Server - INFO - Connection closed for client C
+2025-04-03 18:19:23,036 - Server - INFO - Client C disconnected
+2025-04-03 18:19:23,039 - websockets.server - INFO - connection closed
+2025-04-03 18:51:11,604 - websockets.server - INFO - server listening on [::1]:8765
+2025-04-03 18:51:11,604 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-04-03 18:51:11,605 - Server - INFO - Server started on port 8765
+2025-04-03 18:51:14,616 - websockets.server - INFO - connection open
+2025-04-03 18:51:14,617 - Server - INFO - Authentication request from A
+2025-04-03 18:51:14,620 - Server - INFO - Client A authenticated successfully
+2025-04-03 18:51:16,622 - websockets.server - INFO - connection open
+2025-04-03 18:51:16,623 - Server - INFO - Authentication request from B
+2025-04-03 18:51:16,625 - Server - INFO - Client B authenticated successfully
+2025-04-03 18:51:18,715 - websockets.server - INFO - connection open
+2025-04-03 18:51:18,716 - Server - INFO - Authentication request from C
+2025-04-03 18:51:18,717 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 18:51:18,717 - Server - INFO - Sent ready notification to client A
+2025-04-03 18:51:18,718 - Server - INFO - Sent ready notification to client B
+2025-04-03 18:51:18,718 - Server - INFO - Sent ready notification to client C
+2025-04-03 18:51:18,718 - Server - INFO - Client C authenticated successfully
+2025-04-03 18:51:18,855 - Server - INFO - Relayed message from A to B
+2025-04-03 18:51:18,899 - Server - INFO - Relayed message from A to C
+2025-04-03 18:51:19,037 - Server - INFO - Relayed message from B to A
+2025-04-03 18:51:19,090 - Server - INFO - Relayed message from B to C
+2025-04-03 18:51:19,267 - Server - INFO - Relayed message from C to A
+2025-04-03 18:51:19,336 - Server - INFO - Relayed message from C to B
+2025-04-03 18:51:19,465 - Server - INFO - Relayed message from A to B
+2025-04-03 18:51:19,509 - Server - INFO - Relayed message from A to C
+2025-04-03 18:51:19,601 - Server - INFO - Relayed message from B to C
+2025-04-03 18:59:02,229 - Server - ERROR - Server initialization error: [Errno 10048] error while attempting to bind on address ('::1', 8765, 0, 0): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-04-03 18:59:05,366 - websockets.server - INFO - connection open
+2025-04-03 18:59:05,370 - Server - INFO - Authentication request from A
+2025-04-03 18:59:05,379 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 18:59:05,380 - Server - INFO - Sent ready notification to client A
+2025-04-03 18:59:05,383 - Server - INFO - Sent ready notification to client B
+2025-04-03 18:59:05,386 - Server - INFO - Sent ready notification to client C
+2025-04-03 18:59:05,397 - Server - INFO - Client A authenticated successfully
+2025-04-03 18:59:05,887 - Server - INFO - Relayed message from A to B
+2025-04-03 18:59:05,889 - Server - ERROR - Error processing message: no close frame received or sent
+2025-04-03 18:59:05,891 - Server - INFO - Connection closed for client A
+2025-04-03 18:59:05,894 - Server - INFO - Client A disconnected
+2025-04-03 18:59:05,896 - websockets.server - INFO - connection closed
+2025-04-03 18:59:06,663 - websockets.server - INFO - connection open
+2025-04-03 18:59:06,667 - Server - INFO - Authentication request from B
+2025-04-03 18:59:06,689 - Server - INFO - Client B authenticated successfully
+2025-04-03 18:59:07,610 - Server - INFO - Connection closed for client B
+2025-04-03 18:59:07,611 - Server - INFO - Client B disconnected
+2025-04-03 18:59:07,619 - websockets.server - INFO - connection closed
+2025-04-03 18:59:09,182 - websockets.server - INFO - connection open
+2025-04-03 18:59:09,188 - Server - INFO - Authentication request from C
+2025-04-03 18:59:09,198 - Server - INFO - Client C authenticated successfully
+2025-04-03 18:59:13,066 - Server - INFO - Connection closed for client C
+2025-04-03 18:59:13,067 - Server - INFO - Client C disconnected
+2025-04-03 18:59:13,072 - websockets.server - INFO - connection closed
+2025-04-03 18:59:14,543 - Server - INFO - Connection closed for client C
+2025-04-03 18:59:14,544 - websockets.server - INFO - connection closed
+2025-04-03 18:59:16,861 - Server - INFO - Connection closed for client B
+2025-04-03 18:59:16,862 - websockets.server - INFO - connection closed
+2025-04-03 18:59:18,036 - Server - INFO - Connection closed for client A
+2025-04-03 18:59:18,037 - websockets.server - INFO - connection closed
+2025-04-03 18:59:41,595 - websockets.server - INFO - server listening on [::1]:8765
+2025-04-03 18:59:41,596 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-04-03 18:59:41,597 - Server - INFO - Server started on port 8765
+2025-04-03 18:59:44,265 - websockets.server - INFO - connection open
+2025-04-03 18:59:44,269 - Server - INFO - Authentication request from A
+2025-04-03 18:59:44,277 - Server - INFO - Client A authenticated successfully
+2025-04-03 18:59:46,668 - websockets.server - INFO - connection open
+2025-04-03 18:59:46,670 - Server - INFO - Authentication request from B
+2025-04-03 18:59:46,674 - Server - INFO - Client B authenticated successfully
+2025-04-03 18:59:48,409 - websockets.server - INFO - connection open
+2025-04-03 18:59:48,411 - Server - INFO - Authentication request from C
+2025-04-03 18:59:48,414 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 18:59:48,415 - Server - INFO - Sent ready notification to client A
+2025-04-03 18:59:48,415 - Server - INFO - Sent ready notification to client B
+2025-04-03 18:59:48,416 - Server - INFO - Sent ready notification to client C
+2025-04-03 18:59:48,416 - Server - INFO - Client C authenticated successfully
+2025-04-03 18:59:48,737 - Server - INFO - Relayed message from A to B
+2025-04-03 18:59:48,844 - Server - INFO - Relayed message from A to C
+2025-04-03 18:59:49,241 - Server - INFO - Relayed message from B to A
+2025-04-03 18:59:49,338 - Server - INFO - Relayed message from B to C
+2025-04-03 18:59:49,703 - Server - INFO - Relayed message from C to A
+2025-04-03 18:59:49,794 - Server - INFO - Relayed message from C to B
+2025-04-03 18:59:50,009 - Server - INFO - Relayed message from A to B
+2025-04-03 18:59:50,071 - Server - INFO - Relayed message from A to C
+2025-04-03 18:59:50,204 - Server - INFO - Relayed message from B to C
+2025-04-03 19:01:21,055 - Server - INFO - Client C disconnected
+2025-04-03 19:01:21,056 - websockets.server - INFO - connection closed
+2025-04-03 19:03:52,098 - Server - INFO - Connection closed for client A
+2025-04-03 19:03:52,098 - Server - INFO - Client A disconnected
+2025-04-03 19:03:52,102 - websockets.server - INFO - connection closed
+2025-04-03 19:03:59,064 - Server - INFO - Connection closed for client B
+2025-04-03 19:03:59,065 - Server - INFO - Client B disconnected
+2025-04-03 19:03:59,070 - websockets.server - INFO - connection closed
+2025-04-03 20:54:40,467 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-04-03 20:54:40,467 - websockets.server - INFO - server listening on [::1]:8765
+2025-04-03 20:54:40,468 - Server - INFO - Server started on port 8765
+2025-04-03 20:54:40,980 - websockets.server - INFO - connection open
+2025-04-03 20:54:40,985 - Server - INFO - Authentication request from A
+2025-04-03 20:54:40,995 - Server - INFO - Client A authenticated successfully
+2025-04-03 20:54:42,432 - websockets.server - INFO - connection open
+2025-04-03 20:54:42,434 - Server - INFO - Authentication request from B
+2025-04-03 20:54:42,436 - Server - INFO - Client B authenticated successfully
+2025-04-03 20:54:44,637 - websockets.server - INFO - connection open
+2025-04-03 20:54:44,643 - Server - INFO - Authentication request from C
+2025-04-03 20:54:44,654 - Server - INFO - All expected clients are connected! Notifying clients to start key exchange.
+2025-04-03 20:54:44,656 - Server - INFO - Sent ready notification to client A
+2025-04-03 20:54:44,657 - Server - INFO - Sent ready notification to client B
+2025-04-03 20:54:44,662 - Server - INFO - Sent ready notification to client C
+2025-04-03 20:54:44,666 - Server - INFO - Client C authenticated successfully
+2025-04-03 20:54:45,096 - Server - INFO - Relayed message from A to B
+2025-04-03 20:54:45,214 - Server - INFO - Relayed message from A to C
+2025-04-03 20:54:45,591 - Server - INFO - Relayed message from B to A
+2025-04-03 20:54:45,753 - Server - INFO - Relayed message from B to C
+2025-04-03 20:54:46,484 - Server - INFO - Relayed message from C to A
+2025-04-03 20:54:46,633 - Server - INFO - Relayed message from C to B
+2025-04-03 20:54:47,249 - Server - INFO - Relayed message from A to B
+2025-04-03 20:54:47,382 - Server - INFO - Relayed message from A to C
+2025-04-03 20:54:47,563 - Server - INFO - Relayed message from B to C
+2025-04-03 20:55:56,415 - Server - INFO - Connection closed for client C
+2025-04-03 20:55:56,416 - Server - INFO - Client C disconnected
+2025-04-03 20:55:56,419 - websockets.server - INFO - connection closed
+2025-04-03 20:55:57,428 - Server - INFO - Connection closed for client B
+2025-04-03 20:55:57,429 - Server - INFO - Client B disconnected
+2025-04-03 20:55:57,430 - websockets.server - INFO - connection closed
+2025-04-03 20:55:58,315 - Server - INFO - Connection closed for client A
+2025-04-03 20:55:58,317 - Server - INFO - Client A disconnected
+2025-04-03 20:55:58,324 - websockets.server - INFO - connection closed

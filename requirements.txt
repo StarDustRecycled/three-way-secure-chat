@@ -1,2 +1,2 @@
-cryptography==39.0.2
-pycryptodome==3.18.0
+pycryptodome==3.19.0
+websockets==12.0

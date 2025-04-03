@@ -1,0 +1,322 @@
+2025-04-03 14:53:20,674 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 14:53:20,675 - Client_A - INFO - Authentication request sent
+2025-04-03 14:53:20,679 - Client_A - INFO - Authentication successful
+2025-04-03 14:53:20,680 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 14:53:22,673 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 14:53:22,674 - Client_B - INFO - Authentication request sent
+2025-04-03 14:53:22,678 - Client_B - INFO - Authentication successful
+2025-04-03 14:53:22,678 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 14:53:24,667 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 14:53:24,667 - Client_C - INFO - Authentication request sent
+2025-04-03 14:53:24,673 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 14:53:24,673 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 14:53:24,673 - Client_B - INFO - All peers are ready, starting key exchange...
+2025-04-03 14:53:24,673 - Client_B - INFO - Starting key exchange as client B
+2025-04-03 14:53:24,673 - Client_A - INFO - Generated nonce Na
+2025-04-03 14:53:24,676 - Client_C - INFO - Authentication successful
+2025-04-03 14:53:24,676 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 14:53:24,677 - Client_C - INFO - All peers are ready, starting key exchange...
+2025-04-03 14:53:24,677 - Client_C - INFO - Starting key exchange as client C
+2025-04-03 14:53:24,854 - Client_B - INFO - Received verified nonce from A
+2025-04-03 14:53:24,854 - Client_A - INFO - Sent Na to B and C
+2025-04-03 14:53:24,854 - Client_B - INFO - Received Na from A
+2025-04-03 14:53:24,854 - Client_B - INFO - Generated nonce Nb
+2025-04-03 14:53:24,903 - Client_C - INFO - Received verified nonce from A
+2025-04-03 14:53:24,903 - Client_C - INFO - Received Na from A
+2025-04-03 14:53:25,045 - Client_B - INFO - Sent Nb,Na-1 to A and Nb to C
+2025-04-03 14:53:25,045 - Client_A - INFO - Received verified nonce from B
+2025-04-03 14:53:25,045 - Client_A - INFO - Received valid Nb from B
+2025-04-03 14:53:25,087 - Client_C - INFO - Received verified nonce from B
+2025-04-03 14:53:25,088 - Client_C - INFO - Received Nb from B
+2025-04-03 14:53:25,088 - Client_C - INFO - Generated nonce Nc
+2025-04-03 14:53:25,279 - Client_A - INFO - Received verified nonce from C
+2025-04-03 14:53:25,279 - Client_A - INFO - Received Nc from C
+2025-04-03 14:53:25,281 - Client_C - INFO - Sent Nc to A and B
+2025-04-03 14:53:25,324 - Client_B - INFO - Received verified nonce from C
+2025-04-03 14:53:25,325 - Client_B - INFO - Received Nc from C
+2025-04-03 14:53:25,463 - Client_B - INFO - Received verified nonce from A
+2025-04-03 14:53:25,463 - Client_B - INFO - Verified challenge response from A
+2025-04-03 14:53:25,465 - Client_A - INFO - Sent challenge responses to B and C
+2025-04-03 14:53:25,467 - Client_A - INFO - Derived and saved shared key successfully
+2025-04-03 14:53:25,516 - Client_C - INFO - Received verified nonce from A
+2025-04-03 14:53:25,516 - Client_C - INFO - Verified challenge response from A
+2025-04-03 14:53:25,564 - Client_B - INFO - Sent challenge response to C
+2025-04-03 14:53:25,573 - Client_B - INFO - Derived and saved shared key successfully
+2025-04-03 14:53:25,606 - Client_C - INFO - Received verified nonce from B
+2025-04-03 14:53:25,606 - Client_C - INFO - Verified challenge response from B
+2025-04-03 14:53:25,609 - Client_C - INFO - Derived and saved shared key successfully
+2025-04-03 14:53:39,830 - Client_A - ERROR - Error in chat loop: cannot call recv while another coroutine is already waiting for the next message
+2025-04-03 14:53:39,876 - Client_B - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 14:57:29,924 - Client_C - ERROR - Connection to server closed
+2025-04-03 15:11:16,623 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 15:11:16,624 - Client_A - INFO - Authentication request sent
+2025-04-03 15:11:16,628 - Client_A - INFO - Authentication successful
+2025-04-03 15:11:16,628 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 15:11:18,608 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 15:11:18,608 - Client_B - INFO - Authentication request sent
+2025-04-03 15:11:18,612 - Client_B - INFO - Authentication successful
+2025-04-03 15:11:18,612 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 15:11:20,653 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 15:11:20,653 - Client_C - INFO - Authentication request sent
+2025-04-03 15:11:20,655 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 15:11:20,655 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 15:11:20,656 - Client_B - INFO - All peers are ready, starting key exchange...
+2025-04-03 15:11:20,656 - Client_A - INFO - Generated nonce Na
+2025-04-03 15:11:20,656 - Client_B - INFO - Starting key exchange as client B
+2025-04-03 15:11:20,657 - Client_C - INFO - Authentication successful
+2025-04-03 15:11:20,658 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 15:11:20,658 - Client_C - INFO - All peers are ready, starting key exchange...
+2025-04-03 15:11:20,658 - Client_C - INFO - Starting key exchange as client C
+2025-04-03 15:11:20,851 - Client_A - INFO - Sent Na to B and C
+2025-04-03 15:11:20,851 - Client_B - INFO - Received verified nonce from A
+2025-04-03 15:11:20,851 - Client_B - INFO - Received Na from A
+2025-04-03 15:11:20,851 - Client_B - INFO - Generated nonce Nb
+2025-04-03 15:11:20,895 - Client_C - INFO - Received verified nonce from A
+2025-04-03 15:11:20,896 - Client_C - INFO - Received Na from A
+2025-04-03 15:11:21,038 - Client_A - INFO - Received verified nonce from B
+2025-04-03 15:11:21,038 - Client_A - INFO - Received valid Nb from B
+2025-04-03 15:11:21,040 - Client_B - INFO - Sent Nb,Na-1 to A and Nb to C
+2025-04-03 15:11:21,083 - Client_C - INFO - Received verified nonce from B
+2025-04-03 15:11:21,083 - Client_C - INFO - Received Nb from B
+2025-04-03 15:11:21,083 - Client_C - INFO - Generated nonce Nc
+2025-04-03 15:11:21,267 - Client_A - INFO - Received verified nonce from C
+2025-04-03 15:11:21,267 - Client_A - INFO - Received Nc from C
+2025-04-03 15:11:21,268 - Client_C - INFO - Sent Nc to A and B
+2025-04-03 15:11:21,321 - Client_B - INFO - Received verified nonce from C
+2025-04-03 15:11:21,322 - Client_B - INFO - Received Nc from C
+2025-04-03 15:11:21,460 - Client_A - INFO - Sent challenge responses to B and C
+2025-04-03 15:11:21,462 - Client_A - INFO - Derived and saved shared key successfully
+2025-04-03 15:11:21,465 - Client_B - INFO - Received verified nonce from A
+2025-04-03 15:11:21,465 - Client_B - INFO - Verified challenge response from A
+2025-04-03 15:11:21,509 - Client_C - INFO - Received verified nonce from A
+2025-04-03 15:11:21,509 - Client_C - INFO - Verified challenge response from A
+2025-04-03 15:11:21,559 - Client_B - INFO - Sent challenge response to C
+2025-04-03 15:11:21,569 - Client_B - INFO - Derived and saved shared key successfully
+2025-04-03 15:11:21,601 - Client_C - INFO - Received verified nonce from B
+2025-04-03 15:11:21,601 - Client_C - INFO - Verified challenge response from B
+2025-04-03 15:11:21,604 - Client_C - INFO - Derived and saved shared key successfully
+2025-04-03 15:11:25,534 - Client_A - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:25,577 - Client_B - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:31,729 - Client_B - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:31,772 - Client_C - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:33,755 - Client_B - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:33,801 - Client_C - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:35,507 - Client_B - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:35,552 - Client_C - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:58,917 - Client_B - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:11:58,961 - Client_C - ERROR - Error receiving messages: 'NoneType' object is not subscriptable
+2025-04-03 15:22:12,552 - Client_A - ERROR - Connection to server closed
+2025-04-03 15:22:19,661 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 15:22:19,662 - Client_A - INFO - Authentication request sent
+2025-04-03 15:22:19,667 - Client_A - INFO - Authentication successful
+2025-04-03 15:22:19,667 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 15:22:21,645 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 15:22:21,645 - Client_B - INFO - Authentication request sent
+2025-04-03 15:22:21,649 - Client_B - INFO - Authentication successful
+2025-04-03 15:22:21,650 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 15:22:23,669 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 15:22:23,669 - Client_C - INFO - Authentication request sent
+2025-04-03 15:22:23,672 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 15:22:23,672 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 15:22:23,672 - Client_B - INFO - All peers are ready, starting key exchange...
+2025-04-03 15:22:23,672 - Client_B - INFO - Starting key exchange as client B
+2025-04-03 15:22:23,674 - Client_C - INFO - Authentication successful
+2025-04-03 15:22:23,674 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 15:22:23,674 - Client_C - INFO - All peers are ready, starting key exchange...
+2025-04-03 15:22:23,674 - Client_C - INFO - Starting key exchange as client C
+2025-04-03 15:22:23,894 - Client_A - INFO - Sent Na to B and C
+2025-04-03 15:22:23,896 - Client_B - INFO - Received verified nonce from A
+2025-04-03 15:22:23,896 - Client_B - INFO - Received Na from A
+2025-04-03 15:22:23,897 - Client_B - INFO - Generated nonce Nb
+2025-04-03 15:22:23,945 - Client_C - INFO - Received verified nonce from A
+2025-04-03 15:22:23,946 - Client_C - INFO - Received Na from A
+2025-04-03 15:22:24,113 - Client_B - INFO - Sent Nb,Na-1 to A and Nb to C
+2025-04-03 15:22:24,114 - Client_A - INFO - Received verified nonce from B
+2025-04-03 15:22:24,115 - Client_A - INFO - Received valid Nb from B
+2025-04-03 15:22:24,157 - Client_C - INFO - Received verified nonce from B
+2025-04-03 15:22:24,157 - Client_C - INFO - Received Nb from B
+2025-04-03 15:22:24,158 - Client_C - INFO - Generated nonce Nc
+2025-04-03 15:22:24,335 - Client_A - INFO - Received verified nonce from C
+2025-04-03 15:22:24,335 - Client_A - INFO - Received Nc from C
+2025-04-03 15:22:24,337 - Client_C - INFO - Sent Nc to A and B
+2025-04-03 15:22:24,387 - Client_B - INFO - Received verified nonce from C
+2025-04-03 15:22:24,387 - Client_B - INFO - Received Nc from C
+2025-04-03 15:22:24,540 - Client_A - INFO - Sent challenge responses to B and C
+2025-04-03 15:22:24,543 - Client_A - INFO - Derived and saved shared key successfully
+2025-04-03 15:22:24,546 - Client_B - INFO - Received verified nonce from A
+2025-04-03 15:22:24,546 - Client_B - INFO - Verified challenge response from A
+2025-04-03 15:22:24,588 - Client_C - INFO - Received verified nonce from A
+2025-04-03 15:22:24,588 - Client_C - INFO - Verified challenge response from A
+2025-04-03 15:22:24,641 - Client_B - INFO - Sent challenge response to C
+2025-04-03 15:22:24,649 - Client_B - INFO - Derived and saved shared key successfully
+2025-04-03 15:22:24,684 - Client_C - INFO - Received verified nonce from B
+2025-04-03 15:22:24,685 - Client_C - INFO - Verified challenge response from B
+2025-04-03 15:22:24,687 - Client_C - INFO - Derived and saved shared key successfully
+2025-04-03 15:22:27,221 - Client_A - WARNING - Missing signature or server certificate for message from C
+2025-04-03 15:22:27,263 - Client_B - WARNING - Missing signature or server certificate for message from C
+2025-04-03 15:22:57,400 - Client_A - WARNING - Missing signature or server certificate for message from C
+2025-04-03 15:22:57,445 - Client_B - WARNING - Missing signature or server certificate for message from C
+2025-04-03 15:25:38,429 - Client_B - WARNING - Missing signature or server certificate for message from A
+2025-04-03 15:25:38,473 - Client_C - WARNING - Missing signature or server certificate for message from A
+2025-04-03 15:25:40,544 - Client_B - WARNING - Missing signature or server certificate for message from A
+2025-04-03 15:25:40,588 - Client_C - WARNING - Missing signature or server certificate for message from A
+2025-04-03 18:19:15,325 - Client_A - WARNING - Missing signature or server certificate for message from C
+2025-04-03 18:19:15,367 - Client_B - WARNING - Missing signature or server certificate for message from C
+2025-04-03 18:19:30,419 - Client_B - ERROR - Connection to server closed
+2025-04-03 18:51:14,617 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:51:14,617 - Client_A - INFO - Authentication request sent
+2025-04-03 18:51:14,623 - Client_A - INFO - Authentication successful
+2025-04-03 18:51:14,623 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 18:51:16,623 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:51:16,623 - Client_B - INFO - Authentication request sent
+2025-04-03 18:51:16,628 - Client_B - INFO - Authentication successful
+2025-04-03 18:51:16,628 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 18:51:18,715 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:51:18,715 - Client_C - INFO - Authentication request sent
+2025-04-03 18:51:18,718 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:51:18,718 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 18:51:18,718 - Client_B - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:51:18,719 - Client_A - INFO - Generated nonce Na
+2025-04-03 18:51:18,719 - Client_B - INFO - Starting key exchange as client B
+2025-04-03 18:51:18,721 - Client_C - INFO - Authentication successful
+2025-04-03 18:51:18,721 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 18:51:18,722 - Client_C - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:51:18,722 - Client_C - INFO - Starting key exchange as client C
+2025-04-03 18:51:18,900 - Client_A - INFO - Sent Na to B and C
+2025-04-03 18:51:18,901 - Client_B - INFO - Received verified nonce from A
+2025-04-03 18:51:18,901 - Client_B - INFO - Received Na from A
+2025-04-03 18:51:18,901 - Client_B - INFO - Generated nonce Nb
+2025-04-03 18:51:18,946 - Client_C - INFO - Received verified nonce from A
+2025-04-03 18:51:18,946 - Client_C - INFO - Received Na from A
+2025-04-03 18:51:19,088 - Client_A - INFO - Received verified nonce from B
+2025-04-03 18:51:19,088 - Client_A - INFO - Received valid Nb from B
+2025-04-03 18:51:19,090 - Client_B - INFO - Sent Nb,Na-1 to A and Nb to C
+2025-04-03 18:51:19,134 - Client_C - INFO - Received verified nonce from B
+2025-04-03 18:51:19,134 - Client_C - INFO - Received Nb from B
+2025-04-03 18:51:19,134 - Client_C - INFO - Generated nonce Nc
+2025-04-03 18:51:19,335 - Client_A - INFO - Received verified nonce from C
+2025-04-03 18:51:19,335 - Client_A - INFO - Received Nc from C
+2025-04-03 18:51:19,337 - Client_C - INFO - Sent Nc to A and B
+2025-04-03 18:51:19,382 - Client_B - INFO - Received verified nonce from C
+2025-04-03 18:51:19,382 - Client_B - INFO - Received Nc from C
+2025-04-03 18:51:19,509 - Client_A - INFO - Sent challenge responses to B and C
+2025-04-03 18:51:19,510 - Client_B - INFO - Received verified nonce from A
+2025-04-03 18:51:19,511 - Client_B - INFO - Verified challenge response from A
+2025-04-03 18:51:19,513 - Client_A - INFO - Derived and saved shared key successfully
+2025-04-03 18:51:19,554 - Client_C - INFO - Received verified nonce from A
+2025-04-03 18:51:19,554 - Client_C - INFO - Verified challenge response from A
+2025-04-03 18:51:19,602 - Client_B - INFO - Sent challenge response to C
+2025-04-03 18:51:19,610 - Client_B - INFO - Derived and saved shared key successfully
+2025-04-03 18:51:19,645 - Client_C - INFO - Received verified nonce from B
+2025-04-03 18:51:19,645 - Client_C - INFO - Verified challenge response from B
+2025-04-03 18:51:19,647 - Client_C - INFO - Derived and saved shared key successfully
+2025-04-03 18:59:05,367 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:59:05,369 - Client_A - INFO - Authentication request sent
+2025-04-03 18:59:05,406 - Client_A - INFO - Authentication successful
+2025-04-03 18:59:05,407 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 18:59:05,422 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:59:05,423 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 18:59:05,424 - Client_A - INFO - Generated nonce Na
+2025-04-03 18:59:06,664 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:59:06,666 - Client_B - INFO - Authentication request sent
+2025-04-03 18:59:06,700 - Client_B - INFO - Authentication successful
+2025-04-03 18:59:06,700 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 18:59:09,184 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:59:09,187 - Client_C - INFO - Authentication request sent
+2025-04-03 18:59:09,226 - Client_C - INFO - Authentication successful
+2025-04-03 18:59:09,227 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 18:59:44,266 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:59:44,268 - Client_A - INFO - Authentication request sent
+2025-04-03 18:59:44,294 - Client_A - INFO - Authentication successful
+2025-04-03 18:59:44,294 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 18:59:46,669 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:59:46,670 - Client_B - INFO - Authentication request sent
+2025-04-03 18:59:46,684 - Client_B - INFO - Authentication successful
+2025-04-03 18:59:46,684 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 18:59:48,409 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 18:59:48,410 - Client_C - INFO - Authentication request sent
+2025-04-03 18:59:48,415 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:59:48,416 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 18:59:48,416 - Client_B - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:59:48,416 - Client_A - INFO - Generated nonce Na
+2025-04-03 18:59:48,416 - Client_B - INFO - Starting key exchange as client B
+2025-04-03 18:59:48,424 - Client_C - INFO - Authentication successful
+2025-04-03 18:59:48,425 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 18:59:48,426 - Client_C - INFO - All peers are ready, starting key exchange...
+2025-04-03 18:59:48,426 - Client_C - INFO - Starting key exchange as client C
+2025-04-03 18:59:48,845 - Client_A - INFO - Sent Na to B and C
+2025-04-03 18:59:48,846 - Client_B - INFO - Received verified nonce from A
+2025-04-03 18:59:48,847 - Client_B - INFO - Received Na from A
+2025-04-03 18:59:48,847 - Client_B - INFO - Generated nonce Nb
+2025-04-03 18:59:48,970 - Client_C - INFO - Received verified nonce from A
+2025-04-03 18:59:48,970 - Client_C - INFO - Received Na from A
+2025-04-03 18:59:49,336 - Client_A - INFO - Received verified nonce from B
+2025-04-03 18:59:49,336 - Client_A - INFO - Received valid Nb from B
+2025-04-03 18:59:49,338 - Client_B - INFO - Sent Nb,Na-1 to A and Nb to C
+2025-04-03 18:59:49,409 - Client_C - INFO - Received verified nonce from B
+2025-04-03 18:59:49,409 - Client_C - INFO - Received Nb from B
+2025-04-03 18:59:49,409 - Client_C - INFO - Generated nonce Nc
+2025-04-03 18:59:49,794 - Client_A - INFO - Received verified nonce from C
+2025-04-03 18:59:49,794 - Client_A - INFO - Received Nc from C
+2025-04-03 18:59:49,795 - Client_C - INFO - Sent Nc to A and B
+2025-04-03 18:59:49,884 - Client_B - INFO - Received verified nonce from C
+2025-04-03 18:59:49,885 - Client_B - INFO - Received Nc from C
+2025-04-03 18:59:50,072 - Client_A - INFO - Sent challenge responses to B and C
+2025-04-03 18:59:50,073 - Client_B - INFO - Received verified nonce from A
+2025-04-03 18:59:50,073 - Client_B - INFO - Verified challenge response from A
+2025-04-03 18:59:50,075 - Client_A - INFO - Derived and saved shared key successfully
+2025-04-03 18:59:50,136 - Client_C - INFO - Received verified nonce from A
+2025-04-03 18:59:50,137 - Client_C - INFO - Verified challenge response from A
+2025-04-03 18:59:50,204 - Client_B - INFO - Sent challenge response to C
+2025-04-03 18:59:50,215 - Client_B - INFO - Derived and saved shared key successfully
+2025-04-03 18:59:50,298 - Client_C - INFO - Received verified nonce from B
+2025-04-03 18:59:50,298 - Client_C - INFO - Verified challenge response from B
+2025-04-03 18:59:50,303 - Client_C - INFO - Derived and saved shared key successfully
+2025-04-03 19:01:21,055 - Client_C - ERROR - Connection to server closed
+2025-04-03 20:54:40,981 - Client_A - INFO - Connected to server at ws://localhost:8765
+2025-04-03 20:54:40,984 - Client_A - INFO - Authentication request sent
+2025-04-03 20:54:41,017 - Client_A - INFO - Authentication successful
+2025-04-03 20:54:41,018 - Client_A - INFO - Waiting for all peers to be ready...
+2025-04-03 20:54:42,432 - Client_B - INFO - Connected to server at ws://localhost:8765
+2025-04-03 20:54:42,434 - Client_B - INFO - Authentication request sent
+2025-04-03 20:54:42,443 - Client_B - INFO - Authentication successful
+2025-04-03 20:54:42,443 - Client_B - INFO - Waiting for all peers to be ready...
+2025-04-03 20:54:44,639 - Client_C - INFO - Connected to server at ws://localhost:8765
+2025-04-03 20:54:44,642 - Client_C - INFO - Authentication request sent
+2025-04-03 20:54:44,656 - Client_A - INFO - All peers are ready, starting key exchange...
+2025-04-03 20:54:44,658 - Client_B - INFO - All peers are ready, starting key exchange...
+2025-04-03 20:54:44,661 - Client_A - INFO - Starting key exchange as client A
+2025-04-03 20:54:44,663 - Client_B - INFO - Starting key exchange as client B
+2025-04-03 20:54:44,663 - Client_A - INFO - Generated nonce Na
+2025-04-03 20:54:44,674 - Client_C - INFO - Authentication successful
+2025-04-03 20:54:44,674 - Client_C - INFO - Waiting for all peers to be ready...
+2025-04-03 20:54:44,675 - Client_C - INFO - All peers are ready, starting key exchange...
+2025-04-03 20:54:44,676 - Client_C - INFO - Starting key exchange as client C
+2025-04-03 20:54:45,210 - Client_B - INFO - Received verified nonce from A
+2025-04-03 20:54:45,210 - Client_B - INFO - Received Na from A
+2025-04-03 20:54:45,211 - Client_B - INFO - Generated nonce Nb
+2025-04-03 20:54:45,215 - Client_A - INFO - Sent Na to B and C
+2025-04-03 20:54:45,354 - Client_C - INFO - Received verified nonce from A
+2025-04-03 20:54:45,355 - Client_C - INFO - Received Na from A
+2025-04-03 20:54:45,739 - Client_A - INFO - Received verified nonce from B
+2025-04-03 20:54:45,750 - Client_A - INFO - Received valid Nb from B
+2025-04-03 20:54:45,769 - Client_B - INFO - Sent Nb,Na-1 to A and Nb to C
+2025-04-03 20:54:45,932 - Client_C - INFO - Received verified nonce from B
+2025-04-03 20:54:45,933 - Client_C - INFO - Received Nb from B
+2025-04-03 20:54:45,934 - Client_C - INFO - Generated nonce Nc
+2025-04-03 20:54:46,621 - Client_A - INFO - Received verified nonce from C
+2025-04-03 20:54:46,621 - Client_A - INFO - Received Nc from C
+2025-04-03 20:54:46,634 - Client_C - INFO - Sent Nc to A and B
+2025-04-03 20:54:46,854 - Client_B - INFO - Received verified nonce from C
+2025-04-03 20:54:46,865 - Client_B - INFO - Received Nc from C
+2025-04-03 20:54:47,382 - Client_A - INFO - Sent challenge responses to B and C
+2025-04-03 20:54:47,384 - Client_A - INFO - Derived and saved shared key successfully
+2025-04-03 20:54:47,387 - Client_B - INFO - Received verified nonce from A
+2025-04-03 20:54:47,388 - Client_B - INFO - Verified challenge response from A
+2025-04-03 20:54:47,492 - Client_C - INFO - Received verified nonce from A
+2025-04-03 20:54:47,492 - Client_C - INFO - Verified challenge response from A
+2025-04-03 20:54:47,564 - Client_B - INFO - Sent challenge response to C
+2025-04-03 20:54:47,566 - Client_B - INFO - Derived and saved shared key successfully
+2025-04-03 20:54:47,690 - Client_C - INFO - Received verified nonce from B
+2025-04-03 20:54:47,691 - Client_C - INFO - Verified challenge response from B
+2025-04-03 20:54:47,697 - Client_C - INFO - Derived and saved shared key successfully
